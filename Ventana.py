@@ -6,6 +6,7 @@ class Ventana:
     def __init__(self):
         self.ventana = Tk()
         self.ventana.title("validador De Contraseña")
+        self.ventana.iconbitmap("password.ico")
         self.frame = Frame(self.ventana, width = 1200, height = 600)
         self.frame.pack()
 
